@@ -1,123 +1,125 @@
 {
     "students":[
-        {
+      {
           "firstName": "John",
           "lastName": "Doe",
-          "enrollDate": "2023-09-01",
-          "enrollno": "MUSIC2023001",
-          "regdate": "2023-09-01",
-          "regno": "MUSIC2023001",
+          "enrollDate": "01-09-2023",
+          "enrollno": 1562124,
+          "regdate": "01-09-2023",
+          "regno": 43422,
           "musicCourses": [
-            { "courseName": "Piano", "fee": 400 },
-            { "courseName": "Guitar", "fee": 350 }
+              { "courseName": "Piano", "fee": 400 },
+              { "courseName": "Guitar", "fee": 350 }
           ]
-        },
-        {
+      },
+      {
           "firstName": "Jane",
           "lastName": "Smith",
-          "enrollDate": "2023-09-05",
-          "enrollno": "MUSIC2023002",
-          "regdate": "2023-09-03",
-          "regno": "MUSIC2023002",
+          "enrollDate": "05-09-2023",
+          "enrollno": 1562125,
+          "regdate": "03-09-2023",
+          "regno": 43423,
           "musicCourses": [
-            { "courseName": "Violin", "fee": 400 },
-            { "courseName": "Flute", "fee": 350 }
+              { "courseName": "Violin", "fee": 400 },
+              { "courseName": "Flute", "fee": 350 }
           ]
-        },
-        {
+      },
+      {
           "firstName": "Bob",
           "lastName": "Johnson",
-          "enrollDate": "2023-09-10",
-          "enrollno": "MUSIC2023003",
-          "regdate": "2023-09-10",
-          "regno": "MUSIC2023003",
+          "enrollDate": "10-09-2023",
+          "enrollno": 1562126,
+          "regdate": "10-09-2023",
+          "regno": 43424,
           "musicCourses": [
-            { "courseName": "Drums", "fee": 300 }
+              { "courseName": "Drums", "fee": 300 }
           ]
-        },
-        {
+      },
+      {
           "firstName": "Alice",
           "lastName": "Brown",
-          "enrollDate": "2023-09-15",
-          "enrollno": "MUSIC2023004",
-          "regdate": "2023-09-15",
-          "regno": "MUSIC2023004",
+          "enrollDate": "15-09-2023",
+          "enrollno": 1562127,
+          "regdate": "15-09-2023",
+          "regno": 43425,
           "musicCourses": [
-            { "courseName": "Singing", "fee": 450 }
+              { "courseName": "Singing", "fee": 450 }
           ]
-        },
-        {
+      },
+      {
           "firstName": "Eva",
           "lastName": "Wilson",
-          "enrollDate": "2023-09-20",
-          "enrollno": "MUSIC2023005",
-          "regdate": "2023-09-20",
-          "regno": "MUSIC2023005",
+          "enrollDate": "20-09-2023",
+          "enrollno": 1562128,
+          "regdate": "20-09-2023",
+          "regno": 43426,
           "musicCourses": [
-            { "courseName": "Flute", "fee": 350 }
+              { "courseName": "Flute", "fee": 350 }
           ]
-        },
-        {
+      },
+      {
           "firstName": "David",
           "lastName": "Lee",
-          "enrollDate": "2023-09-25",
-          "enrollno": "MUSIC2023006",
-          "regdate": "2023-09-25",
-          "regno": "MUSIC2023006",
+          "enrollDate": "25-09-2023",
+          "enrollno": 1562129,
+          "regdate": "25-09-2023",
+          "regno": 43427,
           "musicCourses": [
-            { "courseName": "Guitar", "fee": 350 },
-            { "courseName": "Piano", "fee": 400 }
+              { "courseName": "Guitar", "fee": 350 },
+              { "courseName": "Piano", "fee": 400 }
           ]
-        },
-        {
+      },
+      {
           "firstName": "Grace",
           "lastName": "Miller",
-          "enrollDate": "2023-09-30",
-          "enrollno": "MUSIC2023007",
-          "regdate": "2023-09-30",
-          "regno": "MUSIC2023007",
+          "enrollDate": "30-09-2023",
+          "enrollno": 1562130,
+          "regdate": "30-09-2023",
+          "regno": 43428,
           "musicCourses": [
-            { "courseName": "Trumpet", "fee": 400 },
-            { "courseName": "Violin", "fee": 420 }
+              { "courseName": "Trumpet", "fee": 400 },
+              { "courseName": "Violin", "fee": 420 }
           ]
-        },
-        {
+      },
+      {
           "firstName": "Michael",
           "lastName": "Clark",
-          "enrollDate": "2023-10-05",
-          "enrollno": "MUSIC2023008",
-          "regdate": "2023-10-05",
-          "regno": "MUSIC2023008",
+          "enrollDate": "05-10-2023",
+          "enrollno": 1562131,
+          "regdate": "05-10-2023",
+          "regno": 43429,
           "musicCourses": [
-            { "courseName": "Saxophone", "fee": 400 },
-            { "courseName": "Piano", "fee": 370 }
+              { "courseName": "Saxophone", "fee": 400 },
+              { "courseName": "Piano", "fee": 370 }
           ]
-        },
-        {
+      },
+      {
           "firstName": "Olivia",
           "lastName": "Davis",
-          "enrollDate": "2023-10-10",
-          "enrollno": "MUSIC2023009",
-          "regdate": "2023-10-10",
-          "regno": "MUSIC2023009",
+          "enrollDate": "10-10-2023",
+          "enrollno": 1562132,
+          "regdate": "10-10-2023",
+          "regno": 43430,
           "musicCourses": [
-            { "courseName": "Harp", "fee": 400 },
-            { "courseName": "Violin", "fee": 390 }
+              { "courseName": "Harp", "fee": 400 },
+              { "courseName": "Violin", "fee": 390 }
           ]
-        },
-        {
+      },
+      {
           "firstName": "William",
           "lastName": "Hall",
-          "enrollDate": "2023-10-15",
-          "enrollno": "MUSIC2023010",
-          "regdate": "2023-10-15",
-          "regno": "MUSIC2023010",
+          "enrollDate": "15-10-2023",
+          "enrollno": 1562133,
+          "regdate": "15-10-2023",
+          "regno": 43431,
           "musicCourses": [
-            { "courseName": "Accordion", "fee": 400 },
-            { "courseName": "Flute", "fee": 430 }
+              { "courseName": "Accordion", "fee": 400 },
+              { "courseName": "Flute", "fee": 430 }
           ]
-        }
-      ]
+      }
+  ]
+  
+  
 ,      
       "courses":[
         {
@@ -138,7 +140,7 @@
           "daysOfWeek": "Tuesday",
           "noOfStudents": 10,
           "price": 150,
-          "status": "Inactive"
+          "status": "Closed"
         },
         {
           "name": "Drums Masterclass",
@@ -158,7 +160,7 @@
           "daysOfWeek": "Monday",
           "noOfStudents": 12,
           "price": 180,
-          "status": "Inactive"
+          "status": "Closed"
         },
         {
           "name": "Singing 101",
@@ -198,7 +200,7 @@
           "daysOfWeek": "Wednesday",
           "noOfStudents": 8,
           "price": 210,
-          "status": "Inactive"
+          "status": "Closed"
         },
         {
           "name": "Keyboard for Kids",
@@ -221,6 +223,7 @@
           "status": "Archived"
         }
       ]
+      
       
       
            

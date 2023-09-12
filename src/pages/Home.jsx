@@ -15,9 +15,9 @@ const Home = () => {
     },[])
 
   return (
-    <div className='bg-[#E5E7EB] flex flex-col gap-7 w-full py-5 px-8'>
+    <div className='bg-[#E5E7EB] font-nsans flex flex-col gap-7 w-full py-10 px-8'>
         <div>
-            <h1 className='text-3xl font-bold text-[#83858B]'>Overview</h1>
+            <h1 className='text-3xl font-nsans font-bold text-[#83858B]'>Overview</h1>
         </div>
         <div className='grid grid-cols-5 gap-3'>
             <Cards title={students.length} desc={"total number of students"} />
@@ -29,6 +29,10 @@ const Home = () => {
         <Links title="Latest enrolments" linkText="View All Course" />
         <div>
             <Tables headings={tableHeadings.enroll} iden={"enroll"} items={students} />
+        </div>
+        <Links title="best students" linkText="View All Course" />
+        <div>
+            <Tables headings={tableHeadings.students} iden={"student"} items={students} />
         </div>
     </div>
   )

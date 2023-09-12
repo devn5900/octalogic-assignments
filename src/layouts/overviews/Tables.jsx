@@ -7,11 +7,13 @@ import {
   TableRow,
 } from "../../components/ui/table";
 import LatestEnroll from "./LatestEnroll";
+import BestStudents from "./BestStudents";
+import CoursesList from "../courses/CoursesList";
 
-const Tables = ({ headings,iden, items }) => {
+const Tables = ({ headings,iden, items,action }) => {
   return (
     <div className="bg-white py-4 px-5 rounded-md ">
-    <Table >
+    <Table  className=" flex-1" >
       <TableHeader >
         <TableRow>
           {headings &&
@@ -25,6 +27,16 @@ const Tables = ({ headings,iden, items }) => {
               {
                 iden=="enroll"&&items&&items.length>0&&items.splice(0,5).map((el)=>{
                         return <LatestEnroll {...el}  />
+                })
+              }
+               {
+                iden=="student"&&items&&items.length>0&&items.splice(0,5).map((el)=>{
+                        return <BestStudents {...el}  />
+                })
+              }
+               {
+                iden=="courses"&&items&&items.length>0&&items.map((el)=>{
+                        return <CoursesList {...el}  />
                 })
               }
       </TableBody>
