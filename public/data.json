@@ -1,0 +1,227 @@
+{
+    "students":[
+        {
+          "firstName": "John",
+          "lastName": "Doe",
+          "enrollDate": "2023-09-01",
+          "enrollno": "MUSIC2023001",
+          "regdate": "2023-09-01",
+          "regno": "MUSIC2023001",
+          "musicCourses": [
+            { "courseName": "Piano", "fee": 400 },
+            { "courseName": "Guitar", "fee": 350 }
+          ]
+        },
+        {
+          "firstName": "Jane",
+          "lastName": "Smith",
+          "enrollDate": "2023-09-05",
+          "enrollno": "MUSIC2023002",
+          "regdate": "2023-09-03",
+          "regno": "MUSIC2023002",
+          "musicCourses": [
+            { "courseName": "Violin", "fee": 400 },
+            { "courseName": "Flute", "fee": 350 }
+          ]
+        },
+        {
+          "firstName": "Bob",
+          "lastName": "Johnson",
+          "enrollDate": "2023-09-10",
+          "enrollno": "MUSIC2023003",
+          "regdate": "2023-09-10",
+          "regno": "MUSIC2023003",
+          "musicCourses": [
+            { "courseName": "Drums", "fee": 300 }
+          ]
+        },
+        {
+          "firstName": "Alice",
+          "lastName": "Brown",
+          "enrollDate": "2023-09-15",
+          "enrollno": "MUSIC2023004",
+          "regdate": "2023-09-15",
+          "regno": "MUSIC2023004",
+          "musicCourses": [
+            { "courseName": "Singing", "fee": 450 }
+          ]
+        },
+        {
+          "firstName": "Eva",
+          "lastName": "Wilson",
+          "enrollDate": "2023-09-20",
+          "enrollno": "MUSIC2023005",
+          "regdate": "2023-09-20",
+          "regno": "MUSIC2023005",
+          "musicCourses": [
+            { "courseName": "Flute", "fee": 350 }
+          ]
+        },
+        {
+          "firstName": "David",
+          "lastName": "Lee",
+          "enrollDate": "2023-09-25",
+          "enrollno": "MUSIC2023006",
+          "regdate": "2023-09-25",
+          "regno": "MUSIC2023006",
+          "musicCourses": [
+            { "courseName": "Guitar", "fee": 350 },
+            { "courseName": "Piano", "fee": 400 }
+          ]
+        },
+        {
+          "firstName": "Grace",
+          "lastName": "Miller",
+          "enrollDate": "2023-09-30",
+          "enrollno": "MUSIC2023007",
+          "regdate": "2023-09-30",
+          "regno": "MUSIC2023007",
+          "musicCourses": [
+            { "courseName": "Trumpet", "fee": 400 },
+            { "courseName": "Violin", "fee": 420 }
+          ]
+        },
+        {
+          "firstName": "Michael",
+          "lastName": "Clark",
+          "enrollDate": "2023-10-05",
+          "enrollno": "MUSIC2023008",
+          "regdate": "2023-10-05",
+          "regno": "MUSIC2023008",
+          "musicCourses": [
+            { "courseName": "Saxophone", "fee": 400 },
+            { "courseName": "Piano", "fee": 370 }
+          ]
+        },
+        {
+          "firstName": "Olivia",
+          "lastName": "Davis",
+          "enrollDate": "2023-10-10",
+          "enrollno": "MUSIC2023009",
+          "regdate": "2023-10-10",
+          "regno": "MUSIC2023009",
+          "musicCourses": [
+            { "courseName": "Harp", "fee": 400 },
+            { "courseName": "Violin", "fee": 390 }
+          ]
+        },
+        {
+          "firstName": "William",
+          "lastName": "Hall",
+          "enrollDate": "2023-10-15",
+          "enrollno": "MUSIC2023010",
+          "regdate": "2023-10-15",
+          "regno": "MUSIC2023010",
+          "musicCourses": [
+            { "courseName": "Accordion", "fee": 400 },
+            { "courseName": "Flute", "fee": 430 }
+          ]
+        }
+      ]
+,      
+      "courses":[
+        {
+          "name": "Piano Basics",
+          "desc": "Learn the fundamentals of playing the piano.",
+          "instructor": "John Smith",
+          "instrument": "Piano",
+          "daysOfWeek": "Monday",
+          "noOfStudents": 8,
+          "price": 200,
+          "status": "Active"
+        },
+        {
+          "name": "Guitar for Beginners",
+          "desc": "Start your journey into playing the guitar.",
+          "instructor": "Jane Doe",
+          "instrument": "Guitar",
+          "daysOfWeek": "Tuesday",
+          "noOfStudents": 10,
+          "price": 150,
+          "status": "Inactive"
+        },
+        {
+          "name": "Drums Masterclass",
+          "desc": "Become a pro drummer with this intensive course.",
+          "instructor": "Mike Johnson",
+          "instrument": "Drums",
+          "daysOfWeek": "Wednesday",
+          "noOfStudents": 5,
+          "price": 250,
+          "status": "Active"
+        },
+        {
+          "name": "Violin for All Ages",
+          "desc": "Learn to play the violin, regardless of your age.",
+          "instructor": "Emily Wilson",
+          "instrument": "Violin",
+          "daysOfWeek": "Monday",
+          "noOfStudents": 12,
+          "price": 180,
+          "status": "Inactive"
+        },
+        {
+          "name": "Singing 101",
+          "desc": "Discover your singing talent with this beginner's course.",
+          "instructor": "David Clark",
+          "instrument": "Voice",
+          "daysOfWeek": "Tuesday",
+          "noOfStudents": 7,
+          "price": 170,
+          "status": "Active"
+        },
+        {
+          "name": "Bass Guitar Mastery",
+          "desc": "Become a master of the bass guitar with this comprehensive course.",
+          "instructor": "Sarah Turner",
+          "instrument": "Bass Guitar",
+          "daysOfWeek": "Monday",
+          "noOfStudents": 9,
+          "price": 220,
+          "status": "Archived"
+        },
+        {
+          "name": "Flute Harmony",
+          "desc": "Explore the world of flute music and harmony.",
+          "instructor": "Daniel Adams",
+          "instrument": "Flute",
+          "daysOfWeek": "Tuesday",
+          "noOfStudents": 6,
+          "price": 190,
+          "status": "Active"
+        },
+        {
+          "name": "Songwriting Workshop",
+          "desc": "Learn to create your own songs with this creative workshop.",
+          "instructor": "Alicia Brown",
+          "instrument": "None (Songwriting)",
+          "daysOfWeek": "Wednesday",
+          "noOfStudents": 8,
+          "price": 210,
+          "status": "Inactive"
+        },
+        {
+          "name": "Keyboard for Kids",
+          "desc": "Introduce your children to the world of keyboard music.",
+          "instructor": "Sophie Miller",
+          "instrument": "Keyboard",
+          "daysOfWeek": "Monday",
+          "noOfStudents": 15,
+          "price": 160,
+          "status": "Active"
+        },
+        {
+          "name": "Electronic Music Production",
+          "desc": "Produce electronic music with software and hardware tools.",
+          "instructor": "Mark Roberts",
+          "instrument": "None (Electronic Music)",
+          "daysOfWeek": "Tuesday",
+          "noOfStudents": 10,
+          "price": 230,
+          "status": "Archived"
+        }
+      ]
+      
+      
+           
+}
