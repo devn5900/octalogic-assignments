@@ -5,19 +5,27 @@ import { tableHeadings } from '../assets/data'
 import { useDispatch, useSelector } from 'react-redux/es'
 import { setCourse } from '../redux/courses/actions'
 import AddCourses from '../layouts/courses/AddCourses'
+import { useNavigate } from 'react-router-dom'
 
 
 const Courses = () => {
   const {courses}= useSelector(store=>store.coursesReducer);
+  const {isAuth,token}= useSelector(store=>store.userReducer);
+  const navigate= useNavigate();
   const [coursesList,setCoursesList]= useState(courses);
   const dispatch= useDispatch()
   useEffect(()=>{
     dispatch(setCourse());
   },[])
   useEffect(()=>{
+    if(!isAuth){
+        navigate("/login");
+    }
+},[isAuth,token])
+  useEffect(()=>{
       setCoursesList(courses);
       localStorage.setItem("courses",JSON.stringify(courses));
-  },[courses,coursesList])
+  },[courses])
 
   const searchData=(value)=>{
       if(value){

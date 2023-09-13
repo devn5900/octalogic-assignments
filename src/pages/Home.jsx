@@ -5,15 +5,23 @@ import { useDispatch, useSelector } from 'react-redux/es'
 import Tables from '../layouts/overviews/Tables'
 import { tableHeadings } from '../assets/data'
 import { setStudents } from '../redux/students/actions'
+import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
+    const {isAuth,token}= useSelector(store=>store.userReducer);
     const {courses}= useSelector(store=>store.coursesReducer);
     const {students}= useSelector(store=>store.studentsReducer);
     const dispatch=useDispatch();
+    const navigate= useNavigate();
     useEffect(()=>{
+     
         dispatch(setStudents());
     },[])
-
+    useEffect(()=>{
+        if(!isAuth&&!token){
+            navigate("/login");
+        }
+    },[isAuth,token])
   return (
     <div className='bg-[#E5E7EB] font-nsans flex flex-col gap-7 w-full py-10 px-8'>
         <div>

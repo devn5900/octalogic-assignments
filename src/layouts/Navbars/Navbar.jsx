@@ -3,7 +3,15 @@ import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 import logout from '../../assets/logout.svg'
 import { Image } from "lucide-react";
+import { useDispatch } from "react-redux";
+import { logoutUser } from "../../redux/login/actions";
 const Navbar = () => {
+  const dispatch= useDispatch();
+
+  const logoutFn=()=>{
+    dispatch(logoutUser());
+  }
+
   return (
     <div className=" w-28 pt-7 h-screen  border-r border-gray-200">
      <div className="flex flex-col items-center justify-between h-screen">
@@ -44,7 +52,7 @@ const Navbar = () => {
           </span>
         </Link>
       </div>
-      <div className="flex flex-col items-center cursor-pointer">
+      <div onClick={logoutFn} className="flex flex-col items-center cursor-pointer">
         <img src={logout} />
         <span className=" text-[0.75rem] text-[#83858B]  font-normal">Logout</span>
       </div>
