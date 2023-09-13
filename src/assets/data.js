@@ -27,3 +27,23 @@ export const tableHeadings={
         "Action"
     ]
 }
+
+export const daysOfWeekList = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+export const musicalInstruments = [
+    'Piano',
+    'Guitar',
+    'Drums',
+    'Violin',
+    'Voice',
+    'Bass Guitar',
+    'Flute',
+    'Keyboard',
+    'Saxophone',
+    'Trumpet',
+    'Clarinet',
+    'Harp',
+    'Accordion',
+    'Xylophone',
+    'Trombone',
+  ];
+  

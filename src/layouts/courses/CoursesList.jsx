@@ -3,8 +3,8 @@ import {
     TableCell,
     TableRow,
   } from "../../components/ui/table";
-  import {BsThreeDotsVertical} from 'react-icons/bs'
-const CoursesList = ({name,desc,instructor,instrument,daysOfWeek,noOfStudents,price,status}) => {
+import Actions from './Actions';
+const CoursesList = ({id,name,desc,instructor,instrument,daysOfWeek,noOfStudents,price,status}) => {
   
   return (
     <TableRow>
@@ -21,9 +21,7 @@ const CoursesList = ({name,desc,instructor,instrument,daysOfWeek,noOfStudents,pr
         </span>
         </TableCell>
     <TableCell className="text-[#212529]  p-0 text-sm py-3 px-0 " >
-        <span className='flex  justify-end'>
-             <BsThreeDotsVertical  />
-        </span>
+        <Actions id={id} status={status} />
     </TableCell>
 
    

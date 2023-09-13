@@ -123,6 +123,7 @@
 ,      
       "courses":[
         {
+          "id": 1,
           "name": "Piano Basics",
           "desc": "Learn the fundamentals of playing the piano.",
           "instructor": "John Smith",
@@ -133,6 +134,7 @@
           "status": "Active"
         },
         {
+          "id": 2,
           "name": "Guitar for Beginners",
           "desc": "Start your journey into playing the guitar.",
           "instructor": "Jane Doe",
@@ -143,6 +145,7 @@
           "status": "Closed"
         },
         {
+          "id": 3,
           "name": "Drums Masterclass",
           "desc": "Become a pro drummer with this intensive course.",
           "instructor": "Mike Johnson",
@@ -153,6 +156,7 @@
           "status": "Active"
         },
         {
+          "id": 4,
           "name": "Violin for All Ages",
           "desc": "Learn to play the violin, regardless of your age.",
           "instructor": "Emily Wilson",
@@ -163,6 +167,7 @@
           "status": "Closed"
         },
         {
+          "id": 5,
           "name": "Singing 101",
           "desc": "Discover your singing talent with this beginner's course.",
           "instructor": "David Clark",
@@ -173,6 +178,7 @@
           "status": "Active"
         },
         {
+          "id": 6,
           "name": "Bass Guitar Mastery",
           "desc": "Become a master of the bass guitar with this comprehensive course.",
           "instructor": "Sarah Turner",
@@ -183,6 +189,7 @@
           "status": "Archived"
         },
         {
+          "id": 7,
           "name": "Flute Harmony",
           "desc": "Explore the world of flute music and harmony.",
           "instructor": "Daniel Adams",
@@ -193,6 +200,7 @@
           "status": "Active"
         },
         {
+          "id": 8,
           "name": "Songwriting Workshop",
           "desc": "Learn to create your own songs with this creative workshop.",
           "instructor": "Alicia Brown",
@@ -203,6 +211,7 @@
           "status": "Closed"
         },
         {
+          "id": 9,
           "name": "Keyboard for Kids",
           "desc": "Introduce your children to the world of keyboard music.",
           "instructor": "Sophie Miller",
@@ -213,6 +222,7 @@
           "status": "Active"
         },
         {
+          "id": 10,
           "name": "Electronic Music Production",
           "desc": "Produce electronic music with software and hardware tools.",
           "instructor": "Mark Roberts",
@@ -223,6 +233,7 @@
           "status": "Archived"
         }
       ]
+      
       
       
       
