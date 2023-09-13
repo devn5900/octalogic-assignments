@@ -13,8 +13,8 @@ const Navbar = () => {
   }
 
   return (
-    <div className=" w-28 pt-7 h-screen  border-r border-gray-200">
-     <div className="flex flex-col items-center justify-between h-screen">
+    <div className=" w-28 pt-7 h-auto  border-r border-gray-200">
+     <div className="flex flex-col items-center justify-between h-auto">
      <div className="flex items-center flex-col gap-5 ">
         <img src={logo} className="w-[4rem] pb-5" alt={'text'} />
         <Link to={"/"}>
@@ -52,7 +52,7 @@ const Navbar = () => {
           </span>
         </Link>
       </div>
-      <div onClick={logoutFn} className="flex flex-col items-center cursor-pointer">
+      <div onClick={logoutFn} className="flex flex-col bottom-0 fixed py-4 items-center cursor-pointer">
         <img src={logout} />
         <span className=" text-[0.75rem] text-[#83858B]  font-normal">Logout</span>
       </div>

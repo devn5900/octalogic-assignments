@@ -3,7 +3,6 @@ import CourseLinks from '../layouts/courses/CourseLinks'
 import Tables from '../layouts/overviews/Tables'
 import { tableHeadings } from '../assets/data'
 import { useDispatch, useSelector } from 'react-redux/es'
-import { setCourse } from '../redux/courses/actions'
 import AddCourses from '../layouts/courses/AddCourses'
 import { useNavigate } from 'react-router-dom'
 
@@ -14,9 +13,6 @@ const Courses = () => {
   const navigate= useNavigate();
   const [coursesList,setCoursesList]= useState(courses);
   const dispatch= useDispatch()
-  useEffect(()=>{
-    dispatch(setCourse());
-  },[])
   useEffect(()=>{
     if(!isAuth){
         navigate("/login");
